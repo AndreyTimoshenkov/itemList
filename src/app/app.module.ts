@@ -5,6 +5,8 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 import { HttpClientModule } from '@angular/common/http';
+import { HeaderComponent } from './components/header/header.component';
+import { ItemListComponent } from './components/item-list/item-list.component';
 
 @NgModule({
   declarations: [AppComponent],
@@ -13,6 +15,8 @@ import { HttpClientModule } from '@angular/common/http';
     AppRoutingModule,
     MatSlideToggleModule,
     HttpClientModule,
+    HeaderComponent,
+    ItemListComponent,
   ],
   providers: [],
   bootstrap: [AppComponent],

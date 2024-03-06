@@ -1,9 +1,15 @@
-<div class="list">
-  <button class="item" mat-stroked-button color="primary">
-    <span class="item">{{ item.id }}</span>
-    <span class="item">{{ item.name }}</span>
-    <span class="item">{{ item.surname }}</span>
-    <span class="item">{{ item.age }}</span>
-    <span class="item">{{ item.sex }}</span>
-  </button>
-</div>
+<mat-card>
+  <mat-card-header>
+    <mat-card-subtitle
+      >{{ item.age }} years old, {{ item.sex }}</mat-card-subtitle
+    >
+    <mat-card-title>{{ item.name }} {{ item.surname }}</mat-card-title>
+  </mat-card-header>
+
+  <mat-card-content>
+    <mat-divider></mat-divider>
+    <p>
+      {{ item.description }}
+    </p>
+  </mat-card-content>
+</mat-card>

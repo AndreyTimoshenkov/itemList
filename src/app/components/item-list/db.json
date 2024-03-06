@@ -5,28 +5,32 @@
       "name": "Anna",
       "surname": "Karenina",
       "age": 25,
-      "sex": "female"
+      "sex": "female",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Malesuada proin libero nunc consequat interdum varius sit amet mattis. Commodo ullamcorper a lacus vestibulum sed arcu non odio. Ut faucibus pulvinar elementum integer enim neque. Risus commodo viverra maecenas accumsan. Turpis massa sed elementum tempus egestas sed sed risus. Tempor commodo ullamcorper a lacus vestibulum sed. Dignissim suspendisse in est ante in nibh. Venenatis cras sed felis eget velit aliquet. Facilisi nullam vehicula ipsum a arcu cursus vitae."
     },
     {
       "id": 2,
       "name": "Pierre",
       "surname": "Bezukhov",
       "age": 27,
-      "sex": "male"
+      "sex": "male",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Malesuada proin libero nunc consequat interdum varius sit amet mattis. Commodo ullamcorper a lacus vestibulum sed arcu non odio. Ut faucibus pulvinar elementum integer enim neque. Risus commodo viverra maecenas accumsan. Turpis massa sed elementum tempus egestas sed sed risus. Tempor commodo ullamcorper a lacus vestibulum sed. Dignissim suspendisse in est ante in nibh. Venenatis cras sed felis eget velit aliquet. Facilisi nullam vehicula ipsum a arcu cursus vitae."
     },
     {
       "id": 3,
       "name": "Jack",
       "surname": "Daniels",
       "age": 12,
-      "sex": "undefined"
+      "sex": "indefinite",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Malesuada proin libero nunc consequat interdum varius sit amet mattis. Commodo ullamcorper a lacus vestibulum sed arcu non odio. Ut faucibus pulvinar elementum integer enim neque. Risus commodo viverra maecenas accumsan. Turpis massa sed elementum tempus egestas sed sed risus. Tempor commodo ullamcorper a lacus vestibulum sed. Dignissim suspendisse in est ante in nibh. Venenatis cras sed felis eget velit aliquet. Facilisi nullam vehicula ipsum a arcu cursus vitae."
     },
     {
       "id": 4,
       "name": "Gendalf",
       "surname": "Gray",
       "age": "Infinity",
-      "sex": "male"
+      "sex": "male",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Malesuada proin libero nunc consequat interdum varius sit amet mattis. Commodo ullamcorper a lacus vestibulum sed arcu non odio. Ut faucibus pulvinar elementum integer enim neque. Risus commodo viverra maecenas accumsan. Turpis massa sed elementum tempus egestas sed sed risus. Tempor commodo ullamcorper a lacus vestibulum sed. Dignissim suspendisse in est ante in nibh. Venenatis cras sed felis eget velit aliquet. Facilisi nullam vehicula ipsum a arcu cursus vitae."
     }
   ]
 }

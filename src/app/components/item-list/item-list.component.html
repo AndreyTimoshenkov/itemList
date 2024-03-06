@@ -2,7 +2,7 @@
   <button mat-raised-button color="warn">Add new item</button>
 </div> -->
 
-<mat-list role="list" class="table">
+<!-- <mat-list role="list" class="table">
   <div class="title">
     <span class="item">ID</span>
     <span class="item">Name</span>
@@ -15,4 +15,14 @@
     *ngFor="let item of data"
     [item]="item"
   ></app-list-item>
-</mat-list>
+</mat-list> -->
+
+<div class="items">
+  <div *ngFor="let item of data" class="items-item">
+    <app-list-item [item]="item"></app-list-item>
+  </div>
+</div>
+
+<!--     [colspan]="tile.cols"
+    [rowspan]="tile.rows"
+    [style.background]="tile.color" -->

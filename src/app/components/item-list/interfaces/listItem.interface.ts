@@ -6,4 +6,5 @@ export interface IListItem {
   surname: string;
   age: number;
   sex: GenderEnum;
+  description: string;
 }
