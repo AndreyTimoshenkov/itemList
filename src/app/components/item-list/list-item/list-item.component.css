@@ -1,10 +1,5 @@
-.example-button-row {
-  max-width: 600px;
-}
-
 .list {
-  display: flex;
-  flex-direction: column;
+  display: table;
 }
 
 .item {
@@ -13,8 +8,4 @@
   line-height: 0.7em;
   text-align: center;
   justify-content: center;
-}
-
-.title {
-  font-weight: 600;
 }

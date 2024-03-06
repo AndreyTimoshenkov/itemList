@@ -1,11 +1,18 @@
-<section>
-  <div class="example-label">Raised</div>
-  <div class="example-button-row">
-    <button mat-raised-button>Basic</button>
-    <button mat-raised-button color="primary">Primary</button>
-    <button mat-raised-button color="accent">Accent</button>
-    <button mat-raised-button color="warn">Warn</button>
-    <button mat-raised-button disabled>Disabled</button>
-    <a mat-raised-button href="https://www.google.com/" target="_blank">Link</a>
+<!-- <div class="example-button-row">
+  <button mat-raised-button color="warn">Add new item</button>
+</div> -->
+
+<mat-list role="list" class="table">
+  <div class="title">
+    <span class="item">ID</span>
+    <span class="item">Name</span>
+    <span class="item">Surname</span>
+    <span class="item">Age</span>
+    <span class="item">Gender</span>
   </div>
-</section>
+  <app-list-item
+    role="listitem"
+    *ngFor="let item of data"
+    [item]="item"
+  ></app-list-item>
+</mat-list>
